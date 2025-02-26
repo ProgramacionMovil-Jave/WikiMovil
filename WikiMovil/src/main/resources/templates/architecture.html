@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Arquitectura - WikiGroup</title>
+    <link th:href="@{/css/menu.css}" rel="stylesheet">
+    <link th:href="@{/css/arqui.css}" rel="stylesheet">
+
+</head>
+<body>
+    <div th:replace="fragments/menu :: menu"></div>
+    <main>
+        <h1>Arquitectura del Proyecto</h1>
+        <section>
+            <h2>Diagramas</h2>
+            <h2>arquitectura</h2>
+            <img th:src="@{/fotos/Diagrama_ARQUI.png}" alt="diagrama1">
+          <p> en el siguiente diagrama.......</p>
+            <h2>clases</h2>
+            <img th:src="@{/fotos/dia2.png}" alt="diagrama2">
+            <p> en el siguiente diagrama.......</p>
+            <h2>secuencias</h2>
+            <img th:src="@{/fotos/dia3.png}" alt="diagrama 3">
+            <p> en el siguiente diagrama.......</p>
+            <!--Agregar diagramas sobre la arquitectura del proyecto tipo parrafo-->
+        </section>
+        <section>
+            <h2>Modelos</h2>
+
+            <img th:src="@{/fotos/modelos.png}" alt="diagrama4">
+            
+        </section>
+    </main>
+</body>
+</html>

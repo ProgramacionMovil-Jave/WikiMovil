@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Equipo - WikiGroup</title>
+    <link th:href="@{/css/menu.css}" rel="stylesheet">
+    <link th:href="@{/css/styles.css}" rel="stylesheet">
+</head>
+
+<body>
+    <div th:replace="fragments/menu :: menu"></div>
+    <main>
+        <h1>Nuestro Equipo</h1>
+        <div class="team-container">
+            <!-- Miembro 1 -->
+            <div class="team-member">
+                <h2>Carlos Eduardo Rojas</h2>
+                <p><strong>Rol:</strong> Desarrollador Frontend</p>
+                <img th:src="@{/fotos/carlos e.jpg}" alt="Foto de Carlos e">
+            </div>
+
+            <!-- Miembro 2 -->
+            <div class="team-member">
+                <h2>Arley Bernal Muñeton</h2>
+                <p><strong>Rol:</strong> Desarrolladora Backend</p>
+                <img th:src="@{/fotos/arley.jpg}" alt="Foto de arley">
+
+
+            </div>
+
+            <!-- Miembro 3 -->
+            <div class="team-member">
+                <h2>Johan Sebastian López arciniegas</h2>
+                <p><strong>Rol:</strong> Diseñador UX/UI</p>
+                <img th:src="@{/fotos/johan.jpg}" alt="Johan">
+
+            </div>
+
+            <!-- Miembro 4 -->
+            <div class="team-member">
+                <h2>Felipe Garrido</h2>
+                <p><strong>Rol:</strong> Project Manager</p>
+                <img th:src="@{/fotos/CarlosV.jpg}" alt="felipe">
+
+            </div>
+
+            <!-- Miembro 5 -->
+            <div class="team-member">
+                <h2>Christian Vargas Cuadros</h2>
+                <p><strong>Rol:</strong> debops</p>
+                <img th:src="@{/fotos/vargas.jpg}" alt="christian">
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
